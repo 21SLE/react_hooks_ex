@@ -26,7 +26,7 @@ function UseTabs() {
   const { currentItem, changeItem } = useTabs(0, contents);
   return (
     <div className="UseTabs">
-        <h1>useInput</h1>
+        <h1>useTabs</h1>
         {contents.map((section, index) => ( //map은 index를 갖고있음
             <button key= {index} onClick={() => changeItem(index)}>{section.tab}</button>
         ))}
