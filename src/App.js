@@ -3,6 +3,7 @@ import './App.css';
 import UseInput from "./library/UseInput";
 import UseTabs from "./library/UseTabs";
 import UseTitle from "./library/UseTitle";
+import UseClick from "./library/UseClick";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <UseInput />
       <UseTabs />
       <UseTitle />
+      <UseClick />
     </div>
   );
 }
