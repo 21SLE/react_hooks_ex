@@ -10,7 +10,7 @@ const useClick = (onClick) => {
             return;
         }
         
-         console.log(element);
+        //  console.log(element); //undefined로 나옴 
 
         if(element && element.current) {
             element.current.addEventListener("click", onClick);
