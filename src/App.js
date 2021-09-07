@@ -6,6 +6,7 @@ import UseTitle from "./library/UseTitle";
 import UseClick from "./library/UseClick";
 import UseConfirm from "./library/UseConfirm";
 import UsePreventLeave from "./library/UsePreventLeave";
+import UseBeforeLeave from "./library/UseBeforeLeave";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <UseClick />
       <UseConfirm />
       <UsePreventLeave />
+      <UseBeforeLeave />
     </div>
   );
 }
