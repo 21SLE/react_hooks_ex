@@ -5,6 +5,7 @@ import UseTabs from "./library/UseTabs";
 import UseTitle from "./library/UseTitle";
 import UseClick from "./library/UseClick";
 import UseConfirm from "./library/UseConfirm";
+import UsePreventLeave from "./library/UsePreventLeave";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <UseTitle />
       <UseClick />
       <UseConfirm />
+      <UsePreventLeave />
     </div>
   );
 }
