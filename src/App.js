@@ -9,6 +9,7 @@ import UsePreventLeave from "./library/UsePreventLeave";
 import UseBeforeLeave from "./library/UseBeforeLeave";
 import UseFadeIn from "./library/UseFadeIn";
 import UseNetwork from "./library/UseNetwork";
+import UseScroll from "./library/UseScroll";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <UseBeforeLeave />
       <UseFadeIn />
       <UseNetwork />
+      <UseScroll />
     </div>
   );
 }
