@@ -8,6 +8,7 @@ import UseConfirm from "./library/UseConfirm";
 import UsePreventLeave from "./library/UsePreventLeave";
 import UseBeforeLeave from "./library/UseBeforeLeave";
 import UseFadeIn from "./library/UseFadeIn";
+import UseNetwork from "./library/UseNetwork";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <UsePreventLeave />
       <UseBeforeLeave />
       <UseFadeIn />
+      <UseNetwork />
     </div>
   );
 }
